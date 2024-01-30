@@ -1,0 +1,14 @@
+.listing-tag{
+    font-weight: 700;
+    padding: 5px 10px;
+    color: hsl(180, 8%, 52%);
+    margin: 5px;
+    background-color:hsl(180, 52%, 96%); 
+    border-radius: 5px;
+
+    &:hover{
+        cursor: pointer;
+        background-color: hsl(180, 29%, 50%);
+        color: hsl(180, 52%, 96%);
+    }
+}
